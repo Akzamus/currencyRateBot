@@ -2,7 +2,7 @@ package kz.akzam.currencyRateBot.controller;
 
 import com.pengrad.telegrambot.BotUtils;
 import com.pengrad.telegrambot.model.Update;
-import kz.akzam.currencyRateBot.telegram.TelegramUpdateDispatcher;
+import kz.akzam.currencyRateBot.telegram.dispatcher.TelegramUpdateDispatcher;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
